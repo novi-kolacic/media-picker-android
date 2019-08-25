@@ -2,7 +2,7 @@ package iam.thevoid.mediapicker.chooser;
 
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 public abstract class ResolveInfoViewHolder extends RecyclerView.ViewHolder {

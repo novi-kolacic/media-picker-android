@@ -9,12 +9,10 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.os.FileObserver;
-import android.preference.PreferenceManager;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.util.Log;
+import androidx.annotation.NonNull;
+
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
@@ -23,7 +21,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import iam.thevoid.mediapicker.R;
-import iam.thevoid.mediapicker.builder.PhotoIntentBuilder;
 import iam.thevoid.mediapicker.rxmediapicker.metrics.SizeUnit;
 
 /**
