@@ -145,7 +145,7 @@ public class CropImageView extends FrameLayout {
         this.mFlipHorizontally = options.flipHorizontally;
         this.mFlipVertically = options.flipVertically;
         LayoutInflater inflater = LayoutInflater.from(context);
-        View v = inflater.inflate(R.layout.crop_image_view, this, true);
+        View v = inflater.inflate(R.layout.media_picker_crop_image_view, this, true);
         this.mImageView = (ImageView) v.findViewById(R.id.ImageView_image);
         this.mImageView.setScaleType(ImageView.ScaleType.MATRIX);
         this.mCropOverlayView = (CropOverlayView) v.findViewById(R.id.CropOverlayView);
