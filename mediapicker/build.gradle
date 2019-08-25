@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 28
@@ -29,16 +28,6 @@ android {
     lintOptions {
         abortOnError false
     }
-}
-
-publish {
-    groupId = 'iam.void.mediapicker'
-    artifactId = 'mediapicker'
-    publishVersion = '0.2.3'
-    desc = 'Library that helps a few lines of code to get pictures and video from the android file system, or ures cloud, as well as the camera device.'
-    licences = ['Apache-2.0']
-    uploadName = 'RxMediaPicker'
-    website = 'https://github.com/iamthevoid/media-picker-android.git'
 }
 
 dependencies {
