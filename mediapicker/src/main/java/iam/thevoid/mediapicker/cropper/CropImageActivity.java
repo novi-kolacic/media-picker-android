@@ -41,7 +41,7 @@ public class CropImageActivity extends AppCompatActivity implements CropImageVie
     @SuppressLint({"NewApi"})
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.setContentView(R.layout.crop_image_activity);
+        this.setContentView(R.layout.media_picker_crop_image_activity);
         this.mCropImageView = this.findViewById(R.id.cropImageView);
         Intent intent = this.getIntent();
         this.mCropImageUri = intent.getParcelableExtra(EXTRA_SOURCE);
